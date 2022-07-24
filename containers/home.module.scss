@@ -1,0 +1,22 @@
+.pageContent {
+  text-align: left;
+  grid-row: 3/4;
+  grid-column: 2/4;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  text-align: left;
+//   margin-left: 150px;
+}
+
+.description {
+  display: grid;
+  grid-row: 2/2;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: white;
+//   margin-left: 150px;
+//   text-align: left;
+}

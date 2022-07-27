@@ -9,7 +9,7 @@ const FOOTER_ITEMS = [
   },
   {
     alt: "Behance",
-    icon: <a href="https://www.behance.net//" rel="noopener noreferrer" target="__blank" className={styles.linkB}> <Image key={2}  width={20} height={20} src="/images/behance.svg" /></a>,
+    icon: <a href="https://www.behance.net/" rel="noopener noreferrer" target="__blank" className={styles.linkB}> <Image key={2}  width={20} height={20} src="/images/behance.svg" /></a>,
   }
 ];
 

@@ -1,15 +1,16 @@
-.icon{
-    display: flex;
-    margin-right: 20px;
-    cursor: pointer;
+.icon {
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-.iconContainer{
-    grid-row: 5;
-    grid-column: 1/5;
-    display: flex;
-    margin-left: 20px;
+.iconContainer {
+  grid-row: 5;
+  grid-column: 1/5;
+  display: flex;
+  margin-left: 20px;
 }
 
 .link:hover {
-    fill:yellowgreen; }
+  fill: yellowgreen;
+}

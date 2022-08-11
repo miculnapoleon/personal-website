@@ -1,5 +1,5 @@
 import Menu from '../../components/menu/Menu'
-import Dashboard from '../../containers/Home';
+import Footer from '../../components/footer/Footer';
 import styles from './styles.module.scss'
 
 const LayoutV1 = ({children}) =>{
@@ -7,6 +7,7 @@ const LayoutV1 = ({children}) =>{
         <div className={styles.layoutContainer}>
              <Menu/>
             {children}
+            <Footer/>
         </div>
     )
 }

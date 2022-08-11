@@ -5,11 +5,11 @@ import Image from 'next/image'
 const FOOTER_ITEMS = [
   {
     alt: "Instagram",
-    icon:<a href="https://www.instagram.com/" rel="noopener noreferrer" target="__blank" className={styles.link}> <Image key={1}  width={20} height={20} src="/images/insta.svg" /> </a>
+    icon:<a href="https://www.instagram.com/spontaneous_catches/" rel="noopener noreferrer" target="__blank" className={styles.link}> <Image key={1}  width={20} height={20} src="/images/insta.svg" /> </a>
   },
   {
     alt: "Behance",
-    icon: <a href="https://www.behance.net/" rel="noopener noreferrer" target="__blank" className={styles.linkB}> <Image key={2}  width={20} height={20} src="/images/behance.svg" /></a>,
+    icon: <a href="https://www.behance.net/alexandratanase" rel="noopener noreferrer" target="__blank" className={styles.linkB}> <Image key={2}  width={20} height={20} src="/images/behance.svg" /></a>,
   }
 ];
 
